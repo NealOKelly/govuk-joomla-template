@@ -52,25 +52,21 @@
     </div>
 
     <div id="global-cookie-message">
-      
         <p>GOV.UK uses cookies to make the site simpler. <a href="https://www.gov.uk/help/cookies">Find out more about cookies</a></p>
-
-      
     </div>
 
     
     <header role="banner" id="global-header" class="">
-      <div class="header-wrapper">
-        <div class="header-global">
-          <div class="header-logo">
-            <a href="https://www.gov.uk/" title="Go to the GOV.UK homepage" id="logo" class="content">
-              <img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/assets/images/gov.uk_logotype_crown_invert_trans.png" width="36" height="32" alt=""> GOV.UK
-            </a>
-          </div>
-          
-        </div>
-        
-      </div>
+		<div class="header-wrapper">
+        	<div class="header-global">
+				<div class="header-logo">
+					<a href="https://www.gov.uk/" title="Go to the GOV.UK homepage" id="logo" class="content">
+						<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/assets/images/gov.uk_logotype_crown_invert_trans.png" width="36" height="32" alt=""> GOV.UK
+					</a>
+				</div>
+				<jdoc:include type="modules" name="search" />
+	        </div>
+		</div>
     </header>
     <div id="global-header-bar"></div>
 	

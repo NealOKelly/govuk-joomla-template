@@ -87,3 +87,58 @@ main {
 	line-height: 1.3157894737;
 	margin-top: 20px;
 }
+
+/* STYLING FOR SEARCH BOX */
+.govuk-search {
+	width: 33.33%;
+	float: right;
+	margin-right: 15px;
+	padding-left: 30px;
+}
+
+
+
+#global-header form#search input.submit {
+	position: absolute;
+    z-index: 4;
+    right: 0;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #005ea5;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-color: rgb(0, 94, 165);
+	border-left-width: 1px;
+    border-width: 0 0 0 1px;
+    border-left-color: #222;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    overflow: hidden;
+    text-indent: -5000px;
+    color: #fff;
+    background-color: #005ea5;
+    background-image: url(https://assets.publishing.service.gov.uk/static/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+#global-header form#search input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    min-width: 0;
+    display: block;
+    margin: 0;
+    border: 0;
+    min-height: 36px;
+    padding: 6px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* END */
