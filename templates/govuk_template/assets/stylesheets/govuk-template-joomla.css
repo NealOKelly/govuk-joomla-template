@@ -1,0 +1,89 @@
+#wrapper {
+	margin: 0 auto;
+}
+
+#footer {
+	margin-top: 60px;
+}
+
+main {
+	margin-top: 45px;
+	margin-bottom: 45px;	
+}
+
+.grid-row {
+	margin: 0 -15px;
+}
+
+
+.column-two-thirds {
+	float: left; 
+	width: 66.6666666667%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	}
+
+.column-one-third {
+	float: left; 
+	width: 33.3333333333%;;
+	padding: 0 15px;
+	box-sizing: border-box;
+	}
+
+.right-header-bar {
+	border-top: 2px solid #005ea5;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Hide those final nasty bits that I cannot get rid of with the Joomla front end. */
+.icons {
+	display: none;
+}
+
+
+.page-header h2 {
+	font-size: 48px;
+	line-height: 1.0416666667;
+	font-weight: 700;
+}
+
+.item-page h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 27px;
+	line-height: 1.1111111111;
+}
+
+.item-page h3 {
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 1.3157894737;
+	margin-top: 35px;
+}
+
+.item-page p {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 19px;
+	line-height: 1.3157894737;
+}
+
+/* right */
+.govuk-one-third-right {
+	margin-bottom: 45px;
+	font-size: 19px;
+	line-height: 1.3157894737;
+}
+
+.govuk-one-third-right h1 {
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 1.3157894737;
+	margin-top: 20px;
+}

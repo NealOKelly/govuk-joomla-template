@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>govuk_template</name>
+	<creationDate>2018-08-30</creationDate>
+	<author>Neal O'Kelly</author>
+	<authorEmail>neal.okelly@justice.gov.uk</authorEmail>
+	<authorUrl>http://www.example.com</authorUrl>
+	<copyright>OGL</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>govuk_template for Joomla</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>assets</folder>
+	</files>
+	<positions>
+		<position>search</position>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+</extension>
