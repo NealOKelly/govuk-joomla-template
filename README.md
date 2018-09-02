@@ -12,6 +12,8 @@ Supported positions are (will be):
 Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css
 
 ## Disclaimer
+I knocked this together primarily as a hobby project.  I also have an occassional professional need to mock up services in the GIV.UK patterns.  I happen to be comfortable working with Joomla - more out of familiariy than anything else.  I haven't written code as part of my day job since 2001.  I therefore make no apology for the quality of the code!
+
 I have no affiliation with the [Government Digital Service](https://gds.blog.gov.uk/).  If you choose to use this template please read (ad respect) the GDS [guidance](https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk) on using the GOV.UK patterns.  In particular, services not on GOV.UK must not:
 - identify themselves as being part of GOV.UK
 - use the crown or GOV.UK logotype in the header
