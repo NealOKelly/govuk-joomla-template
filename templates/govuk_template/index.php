@@ -79,10 +79,8 @@
 		<div class="grid-row">
 		<main id="content" role="main" class="clearfix">
 			<div class="column-two-thirds">
-	  			<jdoc:include type="modules" name="top" /> 
-				<jdoc:include type="component" />
-				<jdoc:include type="modules" name="bottom" />
-	  		</div>
+	  			<jdoc:include type="component" />
+			</div>
 			<div class="column-one-third">
 				<div class="right-header-bar"></div>
 				<jdoc:include type="modules" name="right" />
