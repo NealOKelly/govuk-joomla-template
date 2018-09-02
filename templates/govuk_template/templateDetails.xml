@@ -18,7 +18,6 @@
 		<position>search</position>
 		<position>breadcrumb</position>
 		<position>right</position>
-		<position>top</position>
 		<position>footer</position>
 	</positions>
 </extension>

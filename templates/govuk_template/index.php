@@ -1,9 +1,8 @@
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" 
-   xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
-<!--[if lt IE 9]><html class="lte-ie8" lang=""><![endif]-->
-<!--[if gt IE 8]><!--><html lang=""><!--<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
+	<!--[if lt IE 9]><html class="lte-ie8" lang=""><![endif]-->
+	<!--[if gt IE 8]><!--><html lang=""><!--<![endif]-->
   <head>
     <meta charset="utf-8" />
     <title>GOV.UK - The best place to find government services and information</title>
@@ -74,53 +73,42 @@
       </div>
     </header>
     <div id="global-header-bar"></div>
-	  
-    <div id="wrapper">
-		<div class="grid-row">
-		<main id="content" role="main" class="clearfix">
-			<div class="column-two-thirds">
-	  			<jdoc:include type="component" />
+	
+	<main>
+		<div id="wrapper">
+			<div class="grid-row">
+			<main id="content" role="main" class="clearfix">
+				<div class="column-two-thirds">
+					<jdoc:include type="component" />
+				</div>
+				<div class="column-one-third">
+					<div class="right-header-bar"></div>
+					<jdoc:include type="modules" name="right" />
+				</div>
+			</main>
 			</div>
-			<div class="column-one-third">
-				<div class="right-header-bar"></div>
-				<jdoc:include type="modules" name="right" />
-			</div>
-		</main>
 		</div>
-	</div>
-	  	  
+	</main>
+	  
     <footer class="group js-footer" id="footer" role="contentinfo">
-
-      <div class="footer-wrapper">
-        
-
-        <div class="footer-meta">
-          <div class="footer-meta-inner">
-            
-
-            <div class="open-government-licence">
-              <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
-              
-                <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
-
-              
-            </div>
-          </div>
-
-          <div class="copyright">
-            <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
-          </div>
-        </div>
-      </div>
+	    <div class="footer-wrapper">
+	        <div class="footer-meta">
+				<div class="footer-meta-inner">
+		            <div class="open-government-licence">
+        			    <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
+		                <p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>
+		            </div>
+        		</div>
+				<div class="copyright">
+					<a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+				</div>
+        	</div>
+      	</div>
     </footer>
 
     <div id="global-app-error" class="app-error hidden"></div>
 
     <script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/assets/javascripts/govuk-template.js"></script>
-
-    
-
-    
     <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
   </body>
 </html>
