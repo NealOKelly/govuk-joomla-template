@@ -9,7 +9,7 @@ Supported positions are (will be):
 - right (Use Module Class Suffice: govuk-one-third-right)
 - footer
 
-Joomla specific css oiis located at /govuk_template/stylesheets/govuk-template-joomla.css
+Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css
 
 ## Disclaimer
 I have no affiliation with the [Government Digital Service](https://gds.blog.gov.uk/).  If you choose to use this template please read (ad respect) the GDS [guidance](https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk) on using the GOV.UK patterns.  In particular, services not on GOV.UK must not:
