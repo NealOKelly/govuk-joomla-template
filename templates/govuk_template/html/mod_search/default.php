@@ -25,12 +25,10 @@ else
 	$width = '';
 }
 ?>
-<div class="search<?php echo $moduleclass_sfx; ?>">
 	<form id="search" action="<?php echo JRoute::_('index.php'); ?>" method="post" class="site-search">
 		<div class="content">
 		<?php
-			$output = '<label for="mod-search-searchword' . $module->id . '" >' . $label . '</label> ';
-			$output .= '<input name="searchword" id="mod-search-searchword' . $module->id . '" maxlength="' . $maxlength . '"  class="js-search-focus" title="Search" type="search"' . $width;
+			$output = '<input name="searchword" id="site-search-text" maxlength="' . $maxlength . '"  class="js-search-focus" title="Search" type="search"' . $width;
 			$output .= ' placeholder="' . $text . '" />';
 
 			if ($button) :
@@ -68,4 +66,3 @@ else
 		<input type="hidden" name="Itemid" value="<?php echo $mitemid; ?>" />
 		</div>
 	</form>
-</div>

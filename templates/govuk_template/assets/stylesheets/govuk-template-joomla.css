@@ -89,13 +89,47 @@ main {
 }
 
 /* STYLING FOR SEARCH BOX */
-.govuk-search {
-	width: 33.33%;
-	float: right;
-	margin-right: 15px;
-	padding-left: 30px;
+
+.content {
+    position: relative;
+    background: #fff;
+	margin: 0 15px;
 }
 
+
+#global-header .header-wrapper .header-global .site-search {
+    width: 33.33%;
+	float: right;
+}
+
+
+
+#global-header form#search input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    min-width: 0;
+    display: block;
+    margin: 0;
+    border: 0;
+    min-height: 36px;
+    padding: 6px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+	width: calc(100% - 35.1px);
+}
+
+#global-header form#search input#site-search-text {
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 1.7692307692;
+    position: relative;
+    padding: 6px;
+    z-index: 3;
+}
 
 
 #global-header form#search input.submit {
@@ -125,20 +159,10 @@ main {
     background-position: 0 50%;
 }
 
-#global-header form#search input {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    float: left;
-    width: 50%;
-    min-width: 0;
-    display: block;
-    margin: 0;
-    border: 0;
-    min-height: 36px;
-    padding: 6px 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
+
+
+
+
+
 
 /* END */
