@@ -3,7 +3,13 @@
 A template for [Joomla](https://www.joomla.org/) 2.5, based on the [govuk_template](www.bbc.co.uk) (v0.24.1).
 
 ## Features & Usage
+Supported positions are (will be):
+- search
+- breadcrumb
+- right (Use Module Class Suffice: govuk-one-third-right)
+- footer
 
+Joomla specific css oiis located at /govuk_template/stylesheets/govuk-template-joomla.css
 
 ## Disclaimer
 I have no affiliation with the [Government Digital Service](https://gds.blog.gov.uk/).  If you choose to use this template please read (ad respect) the GDS [guidance](https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk) on using the GOV.UK patterns.  In particular, services not on GOV.UK must not:
