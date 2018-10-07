@@ -4,9 +4,11 @@ A template for [Joomla](https://www.joomla.org/) 2.5, based on the [govuk_templa
 
 ## Features & Usage
 Supported positions are (will be):
+- banner-menu (Use Menu Class Suffix: govuk-header__navigation-item)
 - search
 - breadcrumb
-- right (Use Module Class Suffice: govuk-one-third-right)
+- main-menu (Use Menu Class Suffix: govuk-main__navigation-item)
+- right (Use Module Class Suffix: govuk-one-third-right)
 - footer
 
 Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css
