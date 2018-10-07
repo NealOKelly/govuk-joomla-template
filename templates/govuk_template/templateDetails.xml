@@ -15,9 +15,10 @@
 		<folder>assets</folder>
 	</files>
 	<positions>
-		<position>menu</position>
+		<position>header-menu</position>
 		<position>search</position>
 		<position>breadcrumb</position>
+		<position>wrapper-menu</position>
 		<position>right</position>
 		<position>footer</position>
 	</positions>

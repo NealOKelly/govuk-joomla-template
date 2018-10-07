@@ -74,7 +74,7 @@
     			<button type="button" role="button" class="govuk-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
 			  
    				<nav class="govuk-header__link">
-	  				<jdoc:include type="modules" name="menu" />
+	  				<jdoc:include type="modules" name="header-menu" />
 				</nav>
 			</div>
 	    </div>
@@ -87,6 +87,7 @@
 			<div class="grid-row">
 			<main id="content" role="main" class="clearfix">
 				<div class="column-two-thirds">
+					<jdoc:include type="modules" name="wrapper-menu" />
 					<jdoc:include type="component" />
 				</div>
 				<div class="column-one-third">
