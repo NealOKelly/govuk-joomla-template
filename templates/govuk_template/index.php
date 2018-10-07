@@ -67,7 +67,7 @@
 
 				<jdoc:include type="modules" name="search" />
 				<div class="govuk-header__content">
-    				<a href="<?php echo $this->baseurl; ?>" class="govuk-header__link govuk-header__link--service-	name">
+    				<a href="<?php echo $this->baseurl; ?>" class="govuk-header__link govuk-header__link--service-name">
       				<?php $config = JFactory::getConfig(); echo $config->get( 'sitename' );?>
     				</a>
 
