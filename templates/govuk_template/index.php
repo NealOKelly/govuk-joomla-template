@@ -87,7 +87,9 @@
 			<div class="grid-row">
 			<main id="content" role="main" class="clearfix">
 				<div class="column-two-thirds">
-					<jdoc:include type="modules" name="wrapper-menu" />
+					<div id="contents-menu">
+						<jdoc:include type="modules" name="contents-menu" />
+					</div>
 					<jdoc:include type="component" />
 				</div>
 				<div class="column-one-third">
