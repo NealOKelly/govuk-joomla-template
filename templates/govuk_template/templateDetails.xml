@@ -15,6 +15,7 @@
 		<folder>assets</folder>
 	</files>
 	<positions>
+		<position>menu</position>
 		<position>search</position>
 		<position>breadcrumb</position>
 		<position>right</position>

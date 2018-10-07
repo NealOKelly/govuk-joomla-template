@@ -64,42 +64,23 @@
 						<img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/assets/images/gov.uk_logotype_crown_invert_trans.png" width="36" height="32" alt=""> GOV.UK
 					</a>
 				</div>
-						   <div class="govuk-header__content">
 
-    <a href="#" class="govuk-header__link govuk-header__link--service-name">
-      		<?php
-		$config = JFactory::getConfig();
-		echo $config->get( 'sitename' );
-		?>
-    </a>
-
-    <button type="button" role="button" class="govuk-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
-    <nav>
-      <ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">
-            <li class="govuk-header__navigation-item govuk-header__navigation-item--active">
-              <a class="govuk-header__link" href="#1">
-                Navigation item 1
-              </a>
-            </li>
-            <li class="govuk-header__navigation-item">
-              <a class="govuk-header__link" href="#2">
-                Navigation item 2
-              </a>
-            </li>
-            <li class="govuk-header__navigation-item">
-              <a class="govuk-header__link" href="#3">
-                Navigation item 3
-              </a>
-            </li>
-      </ul>
-    </nav>
-    </div>
 				<jdoc:include type="modules" name="search" />
-	        </div>
-		</div>
+				<div class="govuk-header__content">
+    				<a href="<?php echo $this->baseurl; ?>" class="govuk-header__link govuk-header__link--service-	name">
+      				<?php $config = JFactory::getConfig(); echo $config->get( 'sitename' );?>
+    				</a>
 
-    </header>
-    <div id="global-header-bar"></div>
+    			<button type="button" role="button" class="govuk-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+			  
+   				<nav class="govuk-header__link">
+	  				<jdoc:include type="modules" name="menu" />
+				</nav>
+			</div>
+	    </div>
+	</header>
+
+	<div id="global-header-bar"></div>
 	
 	<main>
 		<div id="wrapper">
