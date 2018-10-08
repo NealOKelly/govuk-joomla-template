@@ -17,9 +17,9 @@
 	<positions>
 		<position>header-menu</position>
 		<position>search</position>
-		<position>breadcrumb</position>
+		<position>breadcrumbs</position>
 		<position>contents-menu</position>
-		<position>right</position>
+		<position>one-third</position>
 		<position>footer</position>
 	</positions>
 </extension>

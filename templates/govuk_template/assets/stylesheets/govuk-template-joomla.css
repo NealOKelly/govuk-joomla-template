@@ -1,411 +1,143 @@
-#wrapper {
-	margin: 0 auto;
+/* Global font rule */
+html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;}
+
+/* Chnage for the header-menu because we cannot insert a class into the <a> of the list item */
+.govuk-header__navigation-item>a:link, .govuk-header__navigation-item>a:visited {
+    color: #fff;
 }
-
-#footer {
-	margin-top: 60px;
+.govuk-header__navigation-item>a {
+    text-decoration: none;
 }
-
-main {
-	margin-top: 45px;
-	margin-bottom: 45px;	
-}
-
-.grid-row {
-	margin: 0 -15px;
-}
-
-
-.column-two-thirds {
-	float: left; 
-	width: 66.6666666667%;
-	padding: 0 15px;
-	box-sizing: border-box;
-	}
-
-.column-one-third {
-	float: left; 
-	width: 33.3333333333%;;
-	padding: 0 15px;
-	box-sizing: border-box;
-	}
-
-.right-header-bar {
-	border-top: 2px solid #005ea5;
-}
-
-.clearfix:after {
-    content: "";
-    clear: both;
-    display: table;
+.govuk-header__navigation-item>a:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 0;
+    background-color: #ffbf47;
+    color: #0b0c0c;
 }
 
 
-/* Hide those final nasty bits that I cannot get rid of with the Joomla front end. */
-.icons {
-	display: none;
+/* Set page-header h2 to equal govuk-heading-m*/ 
+.page-header h2 {
+	padding-top: 5px
 }
-
 
 .page-header h2 {
-	font-size: 48px;
-	line-height: 1.0416666667;
-	font-weight: 700;
-}
-
-.item-page h1 {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-size: 27px;
-	line-height: 1.1111111111;
-}
-
-.item-page h3 {
-	font-size: 19px;
-	font-weight: 700;
-	line-height: 1.3157894737;
-	margin-top: 35px;
-}
-
-.item-page p {
-	margin-top: 0;
-	margin-bottom: 20px;
-	font-size: 19px;
-	line-height: 1.3157894737;
-}
-
-/* right */
-.govuk-one-third-right {
-	margin-bottom: 45px;
-	font-size: 19px;
-	line-height: 1.3157894737;
-}
-
-.govuk-one-third-right h1 {
-	font-size: 19px;
-	font-weight: 700;
-	line-height: 1.3157894737;
-	margin-top: 20px;
-	
-}
-.govuk-one-third-right a {
-	font-weight: bold;
-	text-decoration: none
-}
-
-/* STYLING FOR SEARCH BOX */
-
-.content {
-    position: relative;
-    background: #fff;
-	margin: 0 15px;
-}
-
-
-#global-header .header-wrapper .header-global .site-search {
-    width: 33.33%;
-	float: right;
-}
-
-
-
-#global-header form#search input {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    float: left;
-    min-width: 0;
+    color: #0b0c0c;
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.04167;
     display: block;
-    margin: 0;
-    border: 0;
-    min-height: 36px;
-    padding: 6px 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-	width: calc(100% - 35.1px);
-}
-
-#global-header form#search input#site-search-text {
-    font-family: "nta", Arial, sans-serif;
-    font-weight: 400;
-    text-transform: none;
-    font-size: 14px;
-    line-height: 1.7692307692;
-    position: relative;
-    padding: 6px;
-    z-index: 3;
-}
-
-
-#global-header form#search input.submit {
-	position: absolute;
-    z-index: 4;
-    right: 0;
-    top: 0;
-    width: 36px;
-    height: 36px;
-    border: 1px solid #005ea5;
-	border-top-width: 1px;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-color: rgb(0, 94, 165);
-	border-left-width: 1px;
-    border-width: 0 0 0 1px;
-    border-left-color: #222;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    overflow: hidden;
-    text-indent: -5000px;
-    color: #fff;
-    background-color: #005ea5;
-    background-image: url(https://assets.publishing.service.gov.uk/static/search-button-ca89b2a79f944909ceb7370d3f0b78811d32b96e883348fcd8886f63dd619585.png);
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-}
-
-.govuk-header__content {
-	width:66.66%;float:left
-}
-
-.govuk-header__content a:visited {
-	color: #005ea5
-}
-
-.govuk-header__content a:hover {
-	color: #2b8cc4
-}
-
-.govuk-header__link	{
-	text-decoration:none
-}
-
-.govuk-header__link a:visited	{
-	color: #005ea5
-}
-.govuk-header__link--service-name {
-	display:inline-block;
-	margin-bottom:10px;
-	font-family:"nta",Arial,sans-serif;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-	font-weight:700;
-	line-height:1.11111
-}
-
-.govuk-header__link--service-name {
-	font-size: 24px;
-}
-
-ul.govuk-header__navigation li a:active {
-	color: yellow
-}
-
-
-
-@media (min-width: 40.0625em) {
-	.govuk-header__link--service-name
-	{
-		font-size:24px;
-		font-size:1.5rem;
-		line-height:1.25
-	}}
-.govuk-header__menu-button
-	{right:15px
-}
-
-@media (min-width: 48.0625em)
-	{.govuk-header__logo {
-		width:33.33%;
-		padding-right:0;
-		float:left;
-		vertical-align:top}}
-
-@media (min-width: 48.0625em)
-	{.govuk-header__content
-		{
-		width:66.66%;
-		float:left
-		}
-}
-.govuk-header__menu-button {
-	font-family:"nta",Arial,sans-serif;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-	font-weight:400;
-	font-size:14px;
-	font-size:.875rem;
-	line-height:1.14286;
-	display:none;
-	position:absolute;
-	top:20px;
-	right:0;
-	margin:0;
-	padding:0;
-	border:0;
-	color:#fff;
-	background:none}
-
-@media print{.govuk-header__menu-button{font-family:sans-serif}}
-
-@media (min-width: 40.0625em)
-	{
-		.govuk-header__menu-button {
-			font-size:16px;
-			font-size:1rem;
-			line-height:1.25
-		}
+    margin-top: 0;
+    margin-bottom: 20px
 }
 
 @media print {
-	.govuk-header__menu-button
-	{
-		font-size:14pt;
-		line-height:1.2
-	}
+    .page-header h2 {
+        color: #000;
+        font-family: sans-serif
+    }
 }
 
-.govuk-header__menu-button:hover {
-	text-decoration:underline}
-
-.govuk-header__menu-button::after {
-	display:inline-block;
-	width:0;
-	height:0;
-	border-style:solid;
-	border-color:transparent;
-	-webkit-clip-path:polygon(0% 0%, 50% 100%, 100% 0%);
-	clip-path:polygon(0% 0%, 50% 100%, 100% 0%);
-	border-width:8.66px 5px 0 5px;
-	border-top-color:inherit;
-	content:"";
-	margin-left:5px
-}
-.govuk-header__menu-button:focus {
-	outline:3px solid #ffbf47;
-	outline-offset:0
+@media (min-width:40.0625em) {
+    .page-header h2 {
+        font-size: 36px;
+        font-size: 2.25rem;
+        line-height: 1.11111
+    }
 }
 
-@media (min-width: 40.0625em) {
-	.govuk-header__menu-button {
-		top:15px
-	}
+@media print {
+    .page-header h2 {
+        font-size: 24pt;
+        line-height: 1.05
+    }
 }
 
-.govuk-header__menu-button--open::after {
-	display:inline-block;
-	width:0;height:0;
-	border-style:solid;
-	border-color:transparent;
-	-webkit-clip-path:polygon(50% 0%, 0% 100%, 100% 100%);
-	clip-path:polygon(50% 0%, 0% 100%, 100% 100%);
-	border-width:0 5px 8.66px 5px;
-	border-bottom-color:inherit}
-
-.govuk-header__navigation {
-	margin-bottom:10px;
-	display:block;
-	margin:0;
-	padding:0;
-	list-style:none
+@media (min-width:40.0625em) {
+    .page-header h2 {
+        margin-bottom: 30px
+    }
 }
 
-@media (min-width: 40.0625em) {
-	.govuk-header__navigation {
-		margin-bottom:10px
-	}
-}
-.js-enabled .govuk-header__menu-button{
-	display:block
-}
 
-@media (min-width: 48.0625em) {
-	.js-enabled .govuk-header__menu-button
-	{
-		display:none
-	}
-}
 
-.govuk-header__navigation {
-	margin-bottom:10px;
-	display:block;
-	margin:0;
-	padding:0;
-	list-style:none;
-	text-decoration:none
-}
-
-@media (min-width: 40.0625em) {
-	.govuk-header__navigation {
-		margin-bottom:10px;
-		text-decoration:none
-	}
-}
-.js-enabled .govuk-header__menu-button{display:block}@media (min-width: 48.0625em){.js-enabled .govuk-header__menu-button{display:none}}.js-enabled .govuk-header__navigation{display:none}
-
-@media (min-width: 48.0625em){.js-enabled .govuk-header__navigation{display:block}}.js-enabled .govuk-header__navigation--open{display:block}
-
-@media (min-width: 48.0625em){.govuk-header__navigation--end{margin:0;padding:5px 0;text-align:right}}.govuk-header__navigation--no-service-name{padding-top:40px}.govuk-header__navigation-item{padding:10px 0;border-bottom:1px solid #2e3133}
-
-@media (min-width: 48.0625em){.govuk-header__navigation-item{display:inline-block;margin-right:15px;padding:5px 0;border:0}}
-
-.govuk-header__navigation-item a {
-	font-family:"nta",Arial,sans-serif;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-	font-weight:700;
-	font-size:14px;
-	font-size:.875rem;
-	line-height:1.14286;
-	white-space:nowrap;
-	text-decoration: none
-}
-@media print{.govuk-header__navigation-item a{font-family:sans-serif}}
-
-@media (min-width: 40.0625em){.govuk-header__navigation-item a{font-size:16px;font-size:1rem;line-height:1.25}}
-
-@media print{.govuk-header__navigation-item a{font-size:14pt;line-height:1.2}}.govuk-header__navigation-item--active a:link,.govuk-header__navigation-item--active a:hover,.govuk-header__navigation-item--active a:visited{color:#1d8feb}.govuk-header__navigation-item--active a:focus{color:#0b0c0c}.govuk-header__navigation-item:last-child{margin-right:0}
-
-.breadcrumbs {
-	padding-top: 0.75em;
-	padding-bottom: 0.75em;
-	vertical-align: baseline;
-}
-
-.breadcrumbs ol{
-    color: #0b0c0c;
-    line-height: 1.5;
-    font-weight: 400;
+.govuk-panel__body {
+    font-family: nta, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-	padding: 0;
-    margin: 0;
-	content: "";
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.04167
+}
+
+@media print {
+    .govuk-panel__body {
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    .govuk-panel__body {
+        font-size: 36px;
+        font-size: 2.25rem;
+        line-height: 1.11111
+    }
+}
+
+@media print {
+    .govuk-panel__body {
+        font-size: 24pt;
+        line-height: 1.05
+    }
+
+
+/* Set joomla-custom-one-third h1 to equal govuk-heading-s  */ 
+.joomla-custom-one-third h1 {
+    color: #0b0c0c;
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
     display: block;
-    clear: both;
-	list-style: inherit;
-}
-.contents-menu h2{
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px
+    margin-top: 0;
+    margin-bottom: 15px
 }
 
-/*This for the slashes.  */
-.content-menu__navigation_item a:link {
-	text-decoration: none
+@media print {
+.joomla-custom-one-third h1 {
+        color: #000;
+        font-family: sans-serif
+    }
 }
 
-li.content-menu__navigation_item:before {
-	 content: "\2014\a0";  
-  padding-right: 5px;
+@media (min-width:40.0625em) {
+.joomla-custom-one-third h1 {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579
+    }
 }
 
-.page-header h2 {
-	font-size: 27px;
-	margin-top: 45px;
-	font-weight: 700;
-	line-height: 30px;
-	padding-bottom: 20px
+@media print {
+.joomla-custom-one-third h1 {
+        font-size: 14pt;
+        line-height: 1.15
+    }
 }
 
-/* END */
+@media (min-width:40.0625em) {
+.joomla-custom-one-third h1 {
+        margin-bottom: 20px
+    }
+}
+
+
+
