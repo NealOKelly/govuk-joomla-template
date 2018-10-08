@@ -84,8 +84,6 @@
       </p>
     </div>
 	<jdoc:include type="modules" name="breadcrumbs" />
-    <a href="#" class="govuk-back-link">Back</a>
-
 									   
     <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
       							  
@@ -142,7 +140,7 @@
           </span>
         </div>
         <div class="govuk-footer__meta-item">
-          <a class="govuk-footer__link govuk-footer__copyright-logo" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
+          <a class="govuk-footer__link govuk-footer__copyright-logo" style="background-image:url(<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/assets/images/govuk-crest.png)" href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">© Crown copyright</a>
         </div>
       </div>
     </div>
