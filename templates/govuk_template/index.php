@@ -85,18 +85,19 @@
 	<main>
 		<div id="wrapper">
 			<div class="grid-row">
-			<main id="content" role="main" class="clearfix">
-				<div class="column-two-thirds">
-					<div id="contents-menu">
-						<jdoc:include type="modules" name="contents-menu" />
+				<main id="content" role="main" class="clearfix">
+					<div class="column-two-thirds">
+						<div class="contents-menu">
+							<h2>Contents</h2>
+							<jdoc:include type="modules" name="contents-menu" />
+						</div>
+						<jdoc:include type="component" />
 					</div>
-					<jdoc:include type="component" />
-				</div>
-				<div class="column-one-third">
-					<div class="right-header-bar"></div>
-					<jdoc:include type="modules" name="right" />
-				</div>
-			</main>
+					<div class="column-one-third">
+						<div class="right-header-bar"></div>
+						<jdoc:include type="modules" name="right" />
+					</div>
+				</main>
 			</div>
 		</div>
 	</main>

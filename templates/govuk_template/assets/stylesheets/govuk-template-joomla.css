@@ -86,6 +86,11 @@ main {
 	font-weight: 700;
 	line-height: 1.3157894737;
 	margin-top: 20px;
+	
+}
+.govuk-one-third-right a {
+	font-weight: bold;
+	text-decoration: none
 }
 
 /* STYLING FOR SEARCH BOX */
@@ -185,9 +190,11 @@ main {
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 	font-weight:700;
-	font-size:18px;
-	font-size:1.125rem;
 	line-height:1.11111
+}
+
+.govuk-header__link--service-name {
+	font-size: 24px;
 }
 
 ul.govuk-header__navigation li a:active {
@@ -358,5 +365,47 @@ ul.govuk-header__navigation li a:active {
 @media (min-width: 40.0625em){.govuk-header__navigation-item a{font-size:16px;font-size:1rem;line-height:1.25}}
 
 @media print{.govuk-header__navigation-item a{font-size:14pt;line-height:1.2}}.govuk-header__navigation-item--active a:link,.govuk-header__navigation-item--active a:hover,.govuk-header__navigation-item--active a:visited{color:#1d8feb}.govuk-header__navigation-item--active a:focus{color:#0b0c0c}.govuk-header__navigation-item:last-child{margin-right:0}
+
+.breadcrumbs {
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	vertical-align: baseline;
+}
+
+.breadcrumbs ol{
+    color: #0b0c0c;
+    line-height: 1.5;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+	padding: 0;
+    margin: 0;
+	content: "";
+    display: block;
+    clear: both;
+	list-style: inherit;
+}
+.contents-menu h2{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px
+}
+
+/*This for the slashes.  */
+.content-menu__navigation_item a:link {
+	text-decoration: none
+}
+
+li.content-menu__navigation_item:before {
+	 content: "\2014\a0";  
+  padding-right: 5px;
+}
+
+.page-header h2 {
+	font-size: 27px;
+	margin-top: 45px;
+	font-weight: 700;
+	line-height: 30px;
+	padding-bottom: 20px
+}
 
 /* END */
