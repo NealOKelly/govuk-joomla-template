@@ -17,6 +17,7 @@
 	<positions>
 		<position>header-menu</position>
 		<position>search</position>
+		<position>phase-banner</position>
 		<position>breadcrumbs</position>
 		<position>contents-menu</position>
 		<position>one-third</position>
