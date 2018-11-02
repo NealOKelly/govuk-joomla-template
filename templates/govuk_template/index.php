@@ -109,26 +109,7 @@
         <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
           <h2 class="govuk-visually-hidden">Support links</h2>
           <ul class="govuk-footer__inline-list">
-            <li class="govuk-footer__inline-list-item">
-              <a class="govuk-footer__link" href="#1">
-                Help
-              </a>
-            </li>
-            <li class="govuk-footer__inline-list-item">
-              <a class="govuk-footer__link" href="#2">
-                Cookies
-              </a>
-            </li>
-            <li class="govuk-footer__inline-list-item">
-              <a class="govuk-footer__link" href="#3">
-                Contact
-              </a>
-            </li>
-            <li class="govuk-footer__inline-list-item">
-              <a class="govuk-footer__link" href="#4">
-                Terms and conditions
-              </a>
-            </li>
+            <jdoc:include type="modules" name="footer-links" />
           </ul>
 
           <svg role="presentation" focusable="false" class="govuk-footer__licence-logo" style="background-image:url(<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/assets/images/govuk-crest.png") xmlns="http://www.w3.org/2000/svg" viewbox="0 0 483.2 195.7" height="17" width="41">

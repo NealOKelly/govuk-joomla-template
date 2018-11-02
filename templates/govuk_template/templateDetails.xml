@@ -20,6 +20,6 @@
 		<position>breadcrumbs</position>
 		<position>contents-menu</position>
 		<position>one-third</position>
-		<position>footer</position>
+		<position>footer-links</position>
 	</positions>
 </extension>
