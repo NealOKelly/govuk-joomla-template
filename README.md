@@ -9,9 +9,34 @@ Supported positions are (will be):
 - breadcrumb
 - main-menu (Use Menu Class Suffix: govuk-main__navigation-item)
 - right (Use Module Class Suffix: govuk-one-third-right)
-- footer
+- footer-links
 
 Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css
+
+## footer-links
+Populated by a custom module.  Example HTML for custom modules is:
+
+<li class="govuk-footer__inline-list-item">
+	<a class="govuk-footer__link" href="#1">
+		Help
+	</a>
+</li>
+<li class="govuk-footer__inline-list-item">
+	<a class="govuk-footer__link" href="#2">
+		Cookies
+	</a>
+</li>
+<li class="govuk-footer__inline-list-item">
+	<a class="govuk-footer__link" href="#3">
+		Contact
+	</a>
+</li>
+<li class="govuk-footer__inline-list-item">
+	<a class="govuk-footer__link" href="#4">
+		Terms and conditions
+	</a>
+</li>
+
 
 ## Disclaimer
 I knocked this together primarily as a hobby project.  I also have an occassional professional need to mock up services in the GIV.UK patterns.  I happen to be comfortable working with Joomla - more out of familiariy than anything else.  
@@ -23,3 +48,7 @@ I have no affiliation with the [Government Digital Service](https://gds.blog.gov
 - use the crown or GOV.UK logotype in the header
 - use the GDS Transport typeface
 - suggest that they are an official UK government website if they are not
+
+
+
+
