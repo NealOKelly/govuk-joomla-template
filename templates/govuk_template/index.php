@@ -1,10 +1,15 @@
-<?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
+<?php defined( '_JEXEC' ) or die;
+$doc =JFactory::getDocument(); 
+$meta_description = $doc->getMetaData("description"); 
+$title = $doc->getTitle();
+?>
 <!DOCTYPE html>
-<html lang="en" class="govuk-template app-html-class">
+<html lang="<?php echo $this->language; ?>" class="govuk-template app-html-class">
 
 <head>
   <meta charset="utf-8" />
-  <title>GOV.UK - Customised page template</title>
+  <title><?php echo "$title" ?></title> 
+  <meta name="description" content="<?php echo "$meta_description"; ?>" />
   <jdoc:include type="head" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="blue" />
