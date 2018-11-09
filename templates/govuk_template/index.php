@@ -85,10 +85,7 @@ $title = $doc->getTitle();
       							  
 	  	<div class="govuk-grid-row">
       		<div class="govuk-grid-column-two-thirds">
-				<div class="contents-menu">
-					<h2>Contents</h2>
-					<jdoc:include type="modules" name="contents-menu" />
-					</div>
+				<jdoc:include type="modules" name="contents-menu" />
 				<jdoc:include type="component" />
       		</div>
 			<div class="govuk-grid-column-one-third">

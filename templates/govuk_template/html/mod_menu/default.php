@@ -18,7 +18,23 @@ if ($tagId = $params->get('tag_id', ''))
 
 // The menu class is deprecated. Use nav instead
 ?>
-<ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation"><?php echo $id; ?>
+
+<?php
+// Speial handling based on module position
+if ($module->position == 'contents-menu')
+	{
+	echo '<div class="contents-menu">';
+	echo '<h2>Contents</h2>';
+	echo '<ul id="navigation" class="" aria-label="Top Level Navigation">';
+	}
+else {
+	echo '<ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">';
+}
+?>
+
+
+
+
 
 <?php foreach ($list as $i => &$item)
 {
@@ -100,3 +116,9 @@ if ($tagId = $params->get('tag_id', ''))
 	}
 }
 ?></ul>
+<?php
+if ($module->position == 'contents-menu')
+	{
+	echo '</div>';
+	}
+?>
