@@ -139,5 +139,14 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
     }
 }
 
+.joomla-custom-one-third h1 {
+        color: #000;
+        font-family: sans-serif
+    }
+}
 
+
+.joomla-custom-one-third p a {
+	color: #005ea5;
+}
 
