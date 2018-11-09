@@ -150,3 +150,24 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 	color: #005ea5;
 }
 
+.joomla-custom-one-third p a:visited {
+	color: #4c2c92;
+}
+
+.joomla-custom-one-third p a:hover {
+	color: #2b8cc4;
+}
+
+
+/* Set page-header h2 to equal govuk-heading-m*/ 
+.contents-menu ul li a {
+	color: #005ea5;
+}
+
+.contents-menu ul li a:visited {
+	color: #4c2c92;
+}
+
+.contents-menu ul li a:hover {
+	color: #2b8cc4;
+}
