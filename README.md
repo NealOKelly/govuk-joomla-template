@@ -16,7 +16,7 @@ Supported positions are (will be):
 Where possible css uses the [GDS Design System](https://design-system.service.gov.uk) is used.  Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css.  An additional css file is include to suppress Joomla features commonly enabled by default, but not supported by the template / consistent with the GDS Design System: /govuk_template/stylesheets/hide-joomla-features.css.  
 
 ## head
-This position is included in case the user want to add additionl content into the <head> element.  It is anticipated that it would be populated by a custom module.
+This position is included in case the user want to add additionl content into the &lt;head&gt; element.  It is anticipated that it would be populated by a custom module.
 
 ## header-menu
 Populated by a custom module.  Example HTML for custom modules is:
