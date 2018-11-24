@@ -13,3 +13,9 @@
 	color: #0b0c0c;
 }
 /*END LINKED TITLES*/
+
+/*ARTICLE INFO*/
+.article-info {
+	display: none;
+}
+/*END ARTICLE INFO*/
