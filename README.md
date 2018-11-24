@@ -7,7 +7,6 @@ Supported positions are (will be):
 - banner-menu (Use Menu Class Suffix: govuk-header__navigation-item)
 - search
 - breadcrumb
-- main-menu (Use Menu Class Suffix: govuk-main__navigation-item)
 - right (Use Module Class Suffix: govuk-one-third-right)
 - footer-links
 
