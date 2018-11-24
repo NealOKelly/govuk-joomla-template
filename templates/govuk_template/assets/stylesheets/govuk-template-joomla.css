@@ -234,6 +234,16 @@ div[itemprop="articleBody"] ul li::before {
 	margin-lef: -25px;
 	padding-right: -5px;
 }
+div[itemprop="articleBody"] a {	
+	color: #005ea5;
+}
+
+div[itemprop="articleBody"] a:visited {	
+	color: #4c2c92;
+}
+div[itemprop="articleBody"] a:hover {	
+	color: #2b8cc4;
+}
 
 /* ##### End of Bullet points for itemprop=articleBody ##### */
 
