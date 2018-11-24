@@ -15,6 +15,7 @@
 		<folder>assets</folder>
 	</files>
 	<positions>
+		<position>head</position>
 		<position>header-menu</position>
 		<position>search</position>
 		<position>phase-banner</position>

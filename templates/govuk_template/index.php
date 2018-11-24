@@ -37,6 +37,8 @@ $title = $doc->getTitle();
   <![endif]-->
 
   <meta property="og:image" content="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/assets/images/govuk-opengraph-image.png">
+
+  <jdoc:include type="modules" name="head" />
 </head>
 
 <body class="govuk-template__body app-body-class">
