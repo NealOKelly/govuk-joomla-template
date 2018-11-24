@@ -83,14 +83,24 @@ else {
 		$class .= ' parent';
 	}
 
-	if ($module->position == 'header-menu')
+	if ($module->position == 'header-menu' or $module->position == 'contents-menu')
 	{
-		echo '<li class="govuk-header__navigation-item">';
+
+		if ($module->position == 'header-menu')
+		{
+			echo '<li class="govuk-header__navigation-item">';
+		}
+		
+		if ($module->position == 'contents-menu')
+		{
+			echo '<li class="contents-menu__navigation-item">';
+		}
 	}
 	else 
 	{
 		echo '<li class="' . $class_sfx . '">';
 	}
+
 	
 
 	switch ($item->type) :

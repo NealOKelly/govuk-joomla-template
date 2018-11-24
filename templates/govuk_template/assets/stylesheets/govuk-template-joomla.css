@@ -163,13 +163,13 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 	padding-left: 0px;
 }
 
-.content-menu__navigation_item {
+.contents-menu__navigation-item {
 	margin-left: 25px;
 	padding-right: 25px;
 	
 }
 
-.contents-menu__navigation_item::before {
+.contents-menu__navigation-item::before {
 	content: "— ";
 	margin-lef: -25px;
 	padding-right: -5px;
