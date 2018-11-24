@@ -83,7 +83,15 @@ else {
 		$class .= ' parent';
 	}
 
-	echo '<li class="' . $class_sfx . '">';
+	if ($module->position == 'header-menu')
+	{
+		echo '<li class="govuk-header__navigation-item">';
+	}
+	else 
+	{
+		echo '<li class="' . $class_sfx . '">';
+	}
+	
 
 	switch ($item->type) :
 		case 'separator':
