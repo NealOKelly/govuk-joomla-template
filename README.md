@@ -1,9 +1,10 @@
 # govuk-joomla-template
 
-A template for [Joomla](https://www.joomla.org/) 2.5, based on the [govuk_template] (https://design-system.service.gov.uk/styles/page-template/) (v0.24.1).
+A template for [Joomla](https://www.joomla.org/) 2.5, based on the [govuk_template (https://design-system.service.gov.uk/styles/page-template/) (v0.24.1)].
 
 ## Features & Usage
 Supported positions are (will be):
+- head
 - header-menu
 - search (under-developement)
 - phase-banner
@@ -12,9 +13,12 @@ Supported positions are (will be):
 - right (Use Module Class Suffix: govuk-one-third-right)
 - footer-links
 
-Where possible css uses the [GDS Design System] (https://design-system.service.gov.uk) is used.  Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css.  An additional css file is include to suppress Joomla features commonly enabled by default, but not supported by the template / consistent with the GDS Design System: /govuk_template/stylesheets/hide-joomla-features.css.  
+Where possible css uses the [GDS Design System (https://design-system.service.gov.uk)] is used.  Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css.  An additional css file is include to suppress Joomla features commonly enabled by default, but not supported by the template / consistent with the GDS Design System: /govuk_template/stylesheets/hide-joomla-features.css.  
 
-## benner-menu
+## head
+This position is included in case the user want to add additionl content into the <head> element.  It is anticipated that it would be populated by a custom module.
+
+## banner-menu
 Populated by a custom module.  Example HTML for custom modules is:
 
 ## footer-links
