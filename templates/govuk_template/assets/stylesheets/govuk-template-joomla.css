@@ -188,4 +188,21 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 	color: #2b8cc4;
 }
 
+/* Styling for blogpost entries (i.e. where the resource is a Category Blog) */
+
+/* ##### Bullet points for itemprop=blogPost ##### */
+div[itemprop="blogPost"] ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+div[itemprop="blogPost"] ul li {
+	margin-left: 25px;
+	padding-right: 25px;
+}
+div[itemprop="blogPost"] ul li::before {
+	content: "— ";
+	margin-lef: -25px;
+	padding-right: -5px;
+}
+/* ##### End of Bullet points for itemprop=blogPost ##### */
 
