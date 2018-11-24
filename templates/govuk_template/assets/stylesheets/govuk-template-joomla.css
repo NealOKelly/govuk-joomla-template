@@ -204,5 +204,36 @@ div[itemprop="blogPost"] ul li::before {
 	margin-lef: -25px;
 	padding-right: -5px;
 }
+
+div[itemprop="blogPost"] a {	
+	color: #005ea5;
+}
+
+div[itemprop="blogPost"] a:visited {	
+	color: #4c2c92;
+}
+div[itemprop="blogPost"] a:hover {	
+	color: #2b8cc4;
+}
+
 /* ##### End of Bullet points for itemprop=blogPost ##### */
+
+/* ##### Bullet points for itemProp=articleBody ##### */
+div[itemprop="articleBody"] ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+div[itemprop="articleBody"] ul li {
+	margin-left: 25px;
+	padding-right: 25px;
+}
+
+div[itemprop="articleBody"] ul li::before {
+	content: "— ";
+	margin-lef: -25px;
+	padding-right: -5px;
+}
+
+/* ##### End of Bullet points for itemprop=articleBody ##### */
 
