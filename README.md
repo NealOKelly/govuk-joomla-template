@@ -8,17 +8,32 @@ Supported positions are (will be):
 - header-menu
 - search (under-developement)
 - phase-banner
-- breadcrumb
-- content-menu
-- right (Use Module Class Suffix: govuk-one-third-right)
+- breadcrumbs
+- contents-menu
+- one-third (Use Module Class Suffix: govuk-one-third-right)
 - footer-links
 
-Where possible css uses the [GDS Design System (https://design-system.service.gov.uk)] is used.  Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css.  An additional css file is include to suppress Joomla features commonly enabled by default, but not supported by the template / consistent with the GDS Design System: /govuk_template/stylesheets/hide-joomla-features.css.  
+Where possible css uses the [GDS Design System](https://design-system.service.gov.uk) is used.  Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css.  An additional css file is include to suppress Joomla features commonly enabled by default, but not supported by the template / consistent with the GDS Design System: /govuk_template/stylesheets/hide-joomla-features.css.  
 
 ## head
 This position is included in case the user want to add additionl content into the <head> element.  It is anticipated that it would be populated by a custom module.
 
-## banner-menu
+## header-menu
+Populated by a custom module.  Example HTML for custom modules is:
+
+## search
+Populated by a custom module.  Example HTML for custom modules is:
+
+## phase-banner
+Populated by a custom module.  Example HTML for custom modules is:
+
+## breadcrumbs
+Populated by a custom module.  Example HTML for custom modules is:
+
+## contents-menu
+Populated by a custom module.  Example HTML for custom modules is:
+
+## one-third
 Populated by a custom module.  Example HTML for custom modules is:
 
 ## footer-links
