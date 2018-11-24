@@ -1,6 +1,6 @@
 /* This file is used to prevent Joomla features that are commonly enabled default, but are not supported in the temple / not consistent with the GOV.UK, from being displayed. */
 
-/*LINKED TITLES*/
+/* "LINKED TITLES" */
 .page-header h2 a {	
 	text-decoration: none;
 	pointer-events: none;
@@ -12,10 +12,16 @@
 	pointer-events: none;
 	color: #0b0c0c;
 }
-/*END LINKED TITLES*/
+/* END "LINKED TITLES" */
 
-/*ARTICLE INFO*/
+/* "ARTICLE INFO" */
 .article-info {
 	display: none;
 }
-/*END ARTICLE INFO*/
+/*END "ARTICLE INFO" */
+
+/* "SHOW NAVIGATION" */
+.pagenav {
+	display: none;
+}
+/*END "SHOW NAVIGATION" */
