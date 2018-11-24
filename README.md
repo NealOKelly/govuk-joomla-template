@@ -4,9 +4,10 @@ A template for [Joomla](https://www.joomla.org/) 2.5, based on the [govuk_templa
 
 ## Features & Usage
 Supported positions are (will be):
-- banner-menu (Use Menu Class Suffix: govuk-header__navigation-item)
+- banner-menu
 - search
 - breadcrumb
+- content-menu
 - right (Use Module Class Suffix: govuk-one-third-right)
 - footer-links
 
@@ -15,26 +16,26 @@ Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joo
 ## footer-links
 Populated by a custom module.  Example HTML for custom modules is:
 
-<li class="govuk-footer__inline-list-item">
+    <li class="govuk-footer__inline-list-item">
 	<a class="govuk-footer__link" href="#1">
 		Help
 	</a>
-</li>
-<li class="govuk-footer__inline-list-item">
+    </li>
+    <li class="govuk-footer__inline-list-item">
 	<a class="govuk-footer__link" href="#2">
 		Cookies
 	</a>
-</li>
-<li class="govuk-footer__inline-list-item">
+    </li>
+    <li class="govuk-footer__inline-list-item">
 	<a class="govuk-footer__link" href="#3">
 		Contact
 	</a>
-</li>
-<li class="govuk-footer__inline-list-item">
+    </li>
+    <li class="govuk-footer__inline-list-item">
 	<a class="govuk-footer__link" href="#4">
 		Terms and conditions
 	</a>
-</li>
+    </li>
 
 
 ## Disclaimer
