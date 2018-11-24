@@ -1,0 +1,15 @@
+/* This file is used to prevent Joomla features that are commonly enabled default, but are not supported in the temple / not consistent with the GOV.UK, from being displayed. */
+
+/*LINKED TITLES*/
+.page-header h2 a {	
+	text-decoration: none;
+	pointer-events: none;
+	color: #0b0c0c;
+}
+
+.page-header h2 a:visited {	
+	text-decoration: none;
+	pointer-events: none;
+	color: #0b0c0c;
+}
+/*END LINKED TITLES*/

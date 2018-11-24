@@ -22,8 +22,10 @@ $title = $doc->getTitle();
   <link rel="apple-touch-icon" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/assets/images/govuk-apple-touch-icon.png">
 
   <!--[if !IE 8]><!-->
-  <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/assets/stylesheets/govuk-frontend-2.0.0.min.css" rel="stylesheet" />						<link rel="stylesheet" media="screen" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/assets/stylesheets/govuk-template-joomla.css" type="text/css"/>
+  <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/assets/stylesheets/govuk-frontend-2.0.0.min.css" rel="stylesheet" />						
+  <link rel="stylesheet" media="screen" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/assets/stylesheets/govuk-template-joomla.css" type="text/css"/>
   <link rel="stylesheet" media="screen" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/assets/stylesheets/fonts.css" type="text/css"/>
+  <link rel="stylesheet" media="screen" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/assets/stylesheets/hide-joomla-features.css" type="text/css"/>
   <!--<![endif]-->
 
   <!--[if IE 8]>
