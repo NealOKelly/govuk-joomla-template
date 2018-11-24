@@ -1,6 +1,6 @@
 # govuk-joomla-template
 
-A template for [Joomla](https://www.joomla.org/) 2.5, based on the [govuk_template (https://design-system.service.gov.uk/styles/page-template/)] (v0.24.1).
+A template for [Joomla](https://www.joomla.org/) 2.5, based on the [govuk_template](https://design-system.service.gov.uk/styles/page-template/) (v0.24.1).
 
 ## Features & Usage
 Supported positions are (will be):
