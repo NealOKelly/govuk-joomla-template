@@ -31,3 +31,9 @@
 	display: none;
 }
 /* END "SHOW ICONS" */
+
+/* "SEARCH RESULTS" */
+.btn-toolbar, .phrases, .only {
+	display: none;
+}
+/* END "SHOW ICONS" */
