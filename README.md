@@ -19,10 +19,10 @@ Where possible css uses the [GDS Design System](https://design-system.service.go
 This position is included in case the user want to add additionl content into the &lt;head&gt; element.  It is anticipated that it would be populated by a custom module.
 
 ## header-menu
-Populated by a custom module.  Example HTML for custom modules is:
+Use to inset navigation items into the black header of the GOV.UK page.  Assign menu module to the header-menu position.  The menu should be configured to show only one level.
 
 ## search
-Populated by a custom module.  Example HTML for custom modules is:
+
 
 ## phase-banner
 Populated by a custom module.  Example HTML for custom module:
@@ -33,14 +33,13 @@ Populated by a custom module.  Example HTML for custom module:
   			    alpha
 		    </strong>
             <span class="govuk-phase-banner__text">
-            	This is a new service – your
-            		<a class="govuk-link" href="#">feedback</a> will help us to improve it.
+            	This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
             </span>
     	</p>
     </div>
 
 ## breadcrumbs
-Populated by a custom module.  Example HTML for custom modules is:
+
 
 ## contents-menu
 Populated by a custom module.  Example HTML for custom modules is:
