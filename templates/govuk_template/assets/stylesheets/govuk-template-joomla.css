@@ -1,7 +1,11 @@
 /* Global font rule */
 html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;}
 
-/* Chnage for the header-menu because we cannot insert a class into the <a> of the list item */
+
+/* START : header-menu */
+/*This section provides styling for the "header-menu" Joomla postion */
+
+/* Required because we cannot insert a class into the <a> of the list item */
 .govuk-header__navigation-item>a:link, .govuk-header__navigation-item>a:visited {
     color: #fff;
 }
@@ -15,55 +19,47 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
     color: #0b0c0c;
 }
 
+/* END : header-menu */
+
+
+/* START : search */
+/*This section provides styling for the "search" Joomla postion */
+/* END : search */
+
+
+/* START : phase-banner */
+/*This section provides styling for the "phase-banner" Joomla postion */
+/* END : phase-banner */
+
+
+/* START : breadcrumbs */
+/*This section provides styling for the "breadcrumbs" Joomla postion */
+
+/* END : breadcrumbs */
+
+/* START : contents-menu */
+/*This section provides styling for the "contents-menu" Joomla postion */
+/* Set page-header h2 to equal govuk-heading-m*/ 
+.contents-menu ul li a {
+	color: #005ea5;
+}
+
+.contents-menu ul li a:visited {
+	color: #4c2c92;
+}
+
+.contents-menu ul li a:hover {
+	color: #2b8cc4;
+}
+/* END : contents-menu */
 
 /* Set page-header h2 to equal govuk-heading-m*/ 
 .page-header h2 {
 	padding-top: 5px
 }
 
-.page-header h2 {
-    color: #0b0c0c;
-    font-family: nta, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: 700;
-    font-size: 24px;
-    font-size: 1.5rem;
-    line-height: 1.04167;
-    display: block;
-    margin-top: 0;
-    margin-bottom: 20px
-}
-
-@media print {
-    .page-header h2 {
-        color: #000;
-        font-family: sans-serif
-    }
-}
-
-@media (min-width:40.0625em) {
-    .page-header h2 {
-        font-size: 36px;
-        font-size: 2.25rem;
-        line-height: 1.11111
-    }
-}
-
-@media print {
-    .page-header h2 {
-        font-size: 24pt;
-        line-height: 1.05
-    }
-}
-
-@media (min-width:40.0625em) {
-    .page-header h2 {
-        margin-bottom: 30px
-    }
-}
-
-
+/* START : one-third */
+/*This section provides styling for the "breadcrumbs" Joomla postion */
 
 /* Set joomla-custom-one-third h1 to equal govuk-heading-s  */ 
 .joomla-custom-one-third h1 {
@@ -114,7 +110,6 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
     }
 }
 
-
 .joomla-custom-one-third p a {
 	color: #005ea5;
 }
@@ -126,24 +121,68 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 .joomla-custom-one-third p a:hover {
 	color: #2b8cc4;
 }
+/* END : one-third */
 
 
+/* START : MAIN JOOMLA CONTENT */
+/* Start : page-header */
+.page-header h2 {
+    color: #0b0c0c;
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.04167;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px
+}
 
-/* Set page-header h2 to equal govuk-heading-m*/ 
-.contents-menu ul li a {
+@media print {
+    .page-header h2 {
+        color: #000;
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    .page-header h2 {
+        font-size: 36px;
+        font-size: 2.25rem;
+        line-height: 1.11111
+    }
+}
+
+@media print {
+    .page-header h2 {
+        font-size: 24pt;
+        line-height: 1.05
+    }
+}
+
+@media (min-width:40.0625em) {
+    .page-header h2 {
+        margin-bottom: 30px
+    }
+}
+/* End : page-header */
+
+/* Start : Hyperlinks */
+div[itemprop="blogPost"] a, div[itemprop="articleBody"] a  {	
 	color: #005ea5;
 }
 
-.contents-menu ul li a:visited {
+div[itemprop="blogPost"] a:visited, div[itemprop="articleBodu"] a:visited {	
 	color: #4c2c92;
 }
-
-.contents-menu ul li a:hover {
+div[itemprop="blogPost"] a:hover, div[itemprop="articleBody"] a:hover {	
 	color: #2b8cc4;
 }
+/* End : Hyperlinks */
 
-
-/* ##### Bullet points for itemprop=blogPost ##### */
+/* Start : Bullet-points */
 div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
     font-family: nta, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -156,10 +195,6 @@ div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
 	padding-left: 20px;
     list-style-type: disc;
 	margin-top: 10px;
-}
-
-div[itemprop="blogPost"] ul li, div[itemprop="articleBody"] ul li {
-	margin-bottom: 5px;
 }
 
 @media print {
@@ -191,25 +226,10 @@ div[itemprop="blogPost"] ul li, div[itemprop="articleBody"] ul li {
 }
 
 @media (min-width:40.0625em) {
-    div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
+    div[itemprop="blogPost"] ul li, div[itemprop="articleBody"] ul li{
         margin-bottom: 5px
     }
 }
 
-
-
-
-
-
-div[itemprop="blogPost"] a, div[itemprop="articleBody"] a  {	
-	color: #005ea5;
-}
-
-div[itemprop="blogPost"] a:visited, div[itemprop="articleBodu"] a:visited {	
-	color: #4c2c92;
-}
-div[itemprop="blogPost"] a:hover, div[itemprop="articleBody"] a:hover {	
-	color: #2b8cc4;
-}
-
-/* ##### End of Bullet points for itemprop=blogPost ##### */
+/* End : Bullet-points */
+/* END : MAIN JOOMLA CONTENT */
