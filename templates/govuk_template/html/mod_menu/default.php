@@ -25,8 +25,8 @@ if ($module->position == 'contents-menu')
 	{
 	echo '<div class="contents-menu">';
 	echo '<h2>Contents</h2>';
-//	echo '<ul id="navigation" class="contents-menu__navigation" aria-label="Top Level Navigation">';
-	echo '<ul id="navigation" class="govuk-list govuk-list--bullet" aria-label="Top Level Navigation">';
+//	echo '<ul id="navigation" class="govuk-list govuk-list--bullet" aria-label="Top Level Navigation">';
+	echo '<ul id="navigation" class="govuk-list">';
 	}
 else {
 	echo '<ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">';
