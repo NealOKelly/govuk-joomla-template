@@ -68,6 +68,7 @@ $title = $doc->getTitle();
         </a>
 
       </div>
+	  <jdoc:include type="modules" name="search" />
       <div class="govuk-header__content">
 
         <a href="<?php echo $this->baseurl; ?>" class="govuk-header__link govuk-header__link--service-name">
