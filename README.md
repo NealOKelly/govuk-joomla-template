@@ -25,7 +25,19 @@ Populated by a custom module.  Example HTML for custom modules is:
 Populated by a custom module.  Example HTML for custom modules is:
 
 ## phase-banner
-Populated by a custom module.  Example HTML for custom modules is:
+Populated by a custom module.  Example HTML for custom module:
+
+    <div class="govuk-phase-banner">
+	    <p class="govuk-phase-banner__content">
+		    <strong class="govuk-tag govuk-phase-banner__content__tag ">
+  			    alpha
+		    </strong>
+            <span class="govuk-phase-banner__text">
+            	This is a new service – your
+            		<a class="govuk-link" href="#">feedback</a> will help us to improve it.
+            </span>
+    	</p>
+    </div>
 
 ## breadcrumbs
 Populated by a custom module.  Example HTML for custom modules is:
@@ -34,8 +46,7 @@ Populated by a custom module.  Example HTML for custom modules is:
 Populated by a custom module.  Example HTML for custom modules is:
 
 ## one-third
-Populated by a custom module.  Example HTML for custom modules is:
-
+Populated by a custom module.  Example HTML for custom module:
     
     <h2 class="govuk-heading-m">Links</h2>
     <ul class="govuk-list govuk-list--bullet">
