@@ -57,7 +57,7 @@ Populated by a custom module.  Example HTML for custom module:
     </ul>
     
 ## footer-links
-Populated by a custom module.  Example HTML for custom modules is:
+Populated by a custom module.  Example HTML for custom module:
 
     <li class="govuk-footer__inline-list-item">
         <a class="govuk-footer__link" href="#1">Help</a>
