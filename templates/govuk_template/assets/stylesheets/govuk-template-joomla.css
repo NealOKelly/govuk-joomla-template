@@ -158,22 +158,7 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 	color: #2b8cc4;
 }
 
-.contents-menu__navigation {
-	list-style-type: none;
-	padding-left: 0px;
-}
 
-.contents-menu__navigation-item {
-	margin-left: 25px;
-	padding-right: 25px;
-	
-}
-
-.contents-menu__navigation-item::before {
-	content: "— ";
-	margin-lef: -25px;
-	padding-right: -5px;
-}
 
 /* Set page-header h2 to equal govuk-heading-m*/ 
 .contents-menu ul li a {
