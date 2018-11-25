@@ -1,5 +1,5 @@
 /* Global font rule */
-html, body, button, input, table, td, th, ol {font-family: "nta", Arial, sans-serif;}
+html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;}
 
 
 /* START : header-menu */
@@ -70,68 +70,7 @@ html, body, button, input, table, td, th, ol {font-family: "nta", Arial, sans-se
 /* END : contents-menu */
 
 /* START : one-third */
-/*This section provides styling for the "breadcrumbs" Joomla postion */
-
-/* Set joomla-custom-one-third h1 to equal govuk-heading-s  */ 
-.joomla-custom-one-third h1 {
-    color: #0b0c0c;
-    font-family: nta, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: 700;
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 1.25;
-    display: block;
-    margin-top: 0;
-    margin-bottom: 15px
-}
-
-@media print {
-.joomla-custom-one-third h1 {
-        color: #000;
-        font-family: sans-serif
-    }
-}
-
-@media (min-width:40.0625em) {
-.joomla-custom-one-third h1 {
-        font-size: 19px;
-        font-size: 1.1875rem;
-        line-height: 1.31579
-    }
-}
-
-@media print {
-.joomla-custom-one-third h1 {
-        font-size: 14pt;
-        line-height: 1.15
-    }
-}
-
-@media (min-width:40.0625em) {
-.joomla-custom-one-third h1 {
-        margin-bottom: 20px
-    }
-}
-
-.joomla-custom-one-third h1 {
-        color: #000;
-        font-family: sans-serif
-    }
-}
-
-.joomla-custom-one-third p a {
-	color: #005ea5;
-}
-
-.joomla-custom-one-third p a:visited {
-	color: #4c2c92;
-}
-
-.joomla-custom-one-third p a:hover {
-	color: #2b8cc4;
-}
+/*This section provides styling for the "one-third" Joomla postion */
 /* END : one-third */
 
 
@@ -503,8 +442,8 @@ div[itemprop="blogPost"] ol, div[itemprop="articleBody"] ol {
 /* End : Numbered List */
 
 /* Spacing at the bottom of the screen */
-.items-row, .item-page {
-	margin-bottom: 40px;
+.items-row, .item-page, .items-leading, .item {
+	margin-bottom: 50px;
 }
 
 
