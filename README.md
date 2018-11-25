@@ -36,13 +36,13 @@ Populated by a custom module.  Example HTML for custom modules is:
 ## one-third
 Populated by a custom module.  Example HTML for custom modules is:
 
-    <div class="govuk-header__container" style="margin-bottom:20px;"></div>
+    
     <h2 class="govuk-heading-m">Links</h2>
-        <ul class="govuk-list govuk-list--bullet">
-	        <li><a class="govuk-link" href="#" target="_blank">Terms and Conditions</a></li>
-	        <li><a class="govuk-link" href="#"  target="_blank">List of Services</a></li>
-	        <li><a class="govuk-link" href="#" target="_blank">Help</a></li>
-        </ul>
+    <ul class="govuk-list govuk-list--bullet">
+        <li><a class="govuk-link" href="#" target="_blank">Terms and Conditions</a></li>
+        <li><a class="govuk-link" href="#"  target="_blank">List of Services</a></li>
+        <li><a class="govuk-link" href="#" target="_blank">Help</a></li>
+    </ul>
     
 ## footer-links
 Populated by a custom module.  Example HTML for custom modules is:
