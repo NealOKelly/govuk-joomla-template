@@ -13,7 +13,9 @@ Supported positions are (will be):
 - one-third
 - footer-links
 
-Where possible css uses the [GDS Design System](https://design-system.service.gov.uk) is used.  Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css.  An additional css file is include to suppress Joomla features commonly enabled by default, but not supported by the template / consistent with the GDS Design System: /govuk_template/stylesheets/hide-joomla-features.css.  
+Where possible css uses the [GDS Design System](https://design-system.service.gov.uk) is used.  Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css.  
+
+An additional css file is include to suppress Joomla features commonly enabled by default, but not supported by the template / consistent with the GDS Design System: /govuk_template/stylesheets/hide-joomla-features.css.  
 
 ## head
 This position is included in case the user want to add additionl content into the &lt;head&gt; element.  It is anticipated that it would be populated by a custom module.
@@ -39,7 +41,7 @@ Populated by a custom module.  Example HTML for custom module:
     </div>
 
 ## breadcrumbs
-
+Assign Joomla breadcrumbs module to the breadcrumbs position. A template over-ride is used to render the html exactly as described in the Design System.
 
 ## contents-menu
 Populated by a custom module.  Example HTML for custom modules is:
