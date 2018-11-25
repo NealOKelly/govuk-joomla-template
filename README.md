@@ -42,7 +42,7 @@ Populated by a custom module.  Example HTML for custom modules is:
 	        <li><a class="govuk-link" href="#" target="_blank">Terms and Conditions</a></li>
 	        <li><a class="govuk-link" href="#"  target="_blank">List of Services</a></li>
 	        <li><a class="govuk-link" href="#" target="_blank">Help</a></li>
-    </ul>
+        </ul>
     
 ## footer-links
 Populated by a custom module.  Example HTML for custom modules is:
