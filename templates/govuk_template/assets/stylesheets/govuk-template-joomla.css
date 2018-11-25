@@ -142,7 +142,6 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 	color: #2b8cc4;
 }
 
-/* Styling for blogpost entries (i.e. where the resource is a Category Blog) */
 
 /* ##### Bullet points for itemprop=blogPost ##### */
 div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
