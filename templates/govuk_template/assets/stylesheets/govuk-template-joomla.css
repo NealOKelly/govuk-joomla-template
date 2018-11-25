@@ -65,37 +65,6 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 
 
 
-.govuk-panel__body {
-    font-family: nta, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: 400;
-    font-size: 24px;
-    font-size: 1.5rem;
-    line-height: 1.04167
-}
-
-@media print {
-    .govuk-panel__body {
-        font-family: sans-serif
-    }
-}
-
-@media (min-width:40.0625em) {
-    .govuk-panel__body {
-        font-size: 36px;
-        font-size: 2.25rem;
-        line-height: 1.11111
-    }
-}
-
-@media print {
-    .govuk-panel__body {
-        font-size: 24pt;
-        line-height: 1.05
-    }
-
-
 /* Set joomla-custom-one-third h1 to equal govuk-heading-s  */ 
 .joomla-custom-one-third h1 {
     color: #0b0c0c;
@@ -176,59 +145,72 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 /* Styling for blogpost entries (i.e. where the resource is a Category Blog) */
 
 /* ##### Bullet points for itemprop=blogPost ##### */
-div[itemprop="blogPost"] ul {
-	list-style-type: none;
-	padding-left: 0px;
-}
-div[itemprop="blogPost"] ul li {
-	margin-left: 25px;
-	padding-right: 25px;
-}
-div[itemprop="blogPost"] ul li::before {
-	content: "— ";
-	margin-lef: -25px;
-	padding-right: -5px;
+div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 15px;
+	padding-left: 20px;
+    list-style-type: disc;
+	margin-top: 10px;
 }
 
-div[itemprop="blogPost"] a {	
+div[itemprop="blogPost"] ul li, div[itemprop="articleBody"] ul li {
+	margin-bottom: 5px;
+}
+
+@media print {
+	div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579
+    }
+}
+
+@media print {
+    div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
+        font-size: 14pt;
+        line-height: 1.15;
+        color: #000
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
+        margin-bottom: 20px
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
+        margin-bottom: 5px
+    }
+}
+
+
+
+
+
+
+div[itemprop="blogPost"] a, div[itemprop="articleBody"] a  {	
 	color: #005ea5;
 }
 
-div[itemprop="blogPost"] a:visited {	
+div[itemprop="blogPost"] a:visited, div[itemprop="articleBodu"] a:visited {	
 	color: #4c2c92;
 }
-div[itemprop="blogPost"] a:hover {	
+div[itemprop="blogPost"] a:hover, div[itemprop="articleBody"] a:hover {	
 	color: #2b8cc4;
 }
 
 /* ##### End of Bullet points for itemprop=blogPost ##### */
-
-/* ##### Bullet points for itemProp=articleBody ##### */
-div[itemprop="articleBody"] ul {
-	list-style-type: none;
-	padding-left: 0px;
-}
-
-div[itemprop="articleBody"] ul li {
-	margin-left: 25px;
-	padding-right: 25px;
-}
-
-div[itemprop="articleBody"] ul li::before {
-	content: "— ";
-	margin-lef: -25px;
-	padding-right: -5px;
-}
-div[itemprop="articleBody"] a {	
-	color: #005ea5;
-}
-
-div[itemprop="articleBody"] a:visited {	
-	color: #4c2c92;
-}
-div[itemprop="articleBody"] a:hover {	
-	color: #2b8cc4;
-}
-
-/* ##### End of Bullet points for itemprop=articleBody ##### */
-
