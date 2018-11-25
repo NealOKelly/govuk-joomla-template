@@ -39,6 +39,7 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 
 /* START : contents-menu */
 /*This section provides styling for the "contents-menu" Joomla postion */
+
 @media print {
     .contents-menu ul li a {
         font-family: sans-serif
@@ -67,6 +68,13 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 .contents-menu ul li a:focus {
     color: #0b0c0c
 }
+
+/* Handle multi-level menus */
+.nav-child {
+	list-style-type: none;
+	padding-inline-start: 20px;
+}
+
 /* END : contents-menu */
 
 /* START : one-third */
