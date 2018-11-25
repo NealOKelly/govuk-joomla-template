@@ -39,17 +39,33 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 
 /* START : contents-menu */
 /*This section provides styling for the "contents-menu" Joomla postion */
-/* Set page-header h2 to equal govuk-heading-m*/ 
-.contents-menu ul li a {
-	color: #005ea5;
+@media print {
+    .contents-menu ul li a {
+        font-family: sans-serif
+    }
+}
+
+.contents-menu ul li a:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 0;
+    background-color: #ffbf47
+}
+
+.contents-menu ul li a:link {
+    color: #005ea5
 }
 
 .contents-menu ul li a:visited {
-	color: #4c2c92;
+    color: #4c2c92
 }
 
+.contents-menu ul li a:active,
 .contents-menu ul li a:hover {
-	color: #2b8cc4;
+    color: #2b8cc4
+}
+
+.contents-menu ul li a:focus {
+    color: #0b0c0c
 }
 /* END : contents-menu */
 
@@ -343,18 +359,43 @@ div[itemprop="blogPost"] p, div[itemprop="articleBody"] p {
 }
 /* End : Paragraph Text */
 
-/* Start : Hyperlinks */
-div[itemprop="blogPost"] a, div[itemprop="articleBody"] a  {	
-	color: #005ea5;
+/* Start : Bold Text */
+div[itemprop="blogPost"] p, div[itemprop="articleBody"] p {
+    font-weight: 700!important
+}
+/* End : Bold Text */
+
+
+/* Start : Links */
+@media print {
+    div[itemprop="blogPost"] a, div[itemprop="articleBody"] a {
+        font-family: sans-serif
+    }
 }
 
-div[itemprop="blogPost"] a:visited, div[itemprop="articleBodu"] a:visited {	
-	color: #4c2c92;
+div[itemprop="blogPost"] a:focus, div[itemprop="articleBody"] a:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 0;
+    background-color: #ffbf47
 }
-div[itemprop="blogPost"] a:hover, div[itemprop="articleBody"] a:hover {	
-	color: #2b8cc4;
+
+div[itemprop="blogPost"] a:link, div[itemprop="articleBody"] a:link {
+    color: #005ea5
 }
-/* End : Hyperlinks */
+
+div[itemprop="blogPost"] a:visited, div[itemprop="articleBody"] a:visited {
+    color: #4c2c92
+}
+
+div[itemprop="blogPost"] a:active, div[itemprop="articleBody"] a:active,
+div[itemprop="blogPost"] a:hover, div[itemprop="articleBody"] a:hover {
+    color: #2b8cc4
+}
+
+div[itemprop="blogPost"] a:focus, div[itemprop="articleBody"] a:focus {
+    color: #0b0c0c
+}
+/* End : Links */
 
 /* Start : Bullet-points */
 div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
