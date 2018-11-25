@@ -53,11 +53,6 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 }
 /* END : contents-menu */
 
-/* Set page-header h2 to equal govuk-heading-m*/ 
-.page-header h2 {
-	padding-top: 5px
-}
-
 /* START : one-third */
 /*This section provides styling for the "breadcrumbs" Joomla postion */
 
@@ -126,7 +121,10 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 
 /* START : MAIN JOOMLA CONTENT */
 /* Start : page-header */
-.page-header h2 {
+
+
+/* H1 = .govuk-heading-l */
+div[itemprop="blogPost"] h1, div[itemprop="articleBody"] h1 {
     color: #0b0c0c;
     font-family: nta, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -141,14 +139,14 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 }
 
 @media print {
-    .page-header h2 {
+    div[itemprop="blogPost"] h1, div[itemprop="articleBody"] h1 {
         color: #000;
         font-family: sans-serif
     }
 }
 
 @media (min-width:40.0625em) {
-    .page-header h2 {
+    div[itemprop="blogPost"] h1, div[itemprop="articleBody"] h1 {
         font-size: 36px;
         font-size: 2.25rem;
         line-height: 1.11111
@@ -156,14 +154,147 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 }
 
 @media print {
-    .page-header h2 {
+    div[itemprop="blogPost"] h1, div[itemprop="articleBody"] h1 {
         font-size: 24pt;
         line-height: 1.05
     }
 }
 
 @media (min-width:40.0625em) {
-    .page-header h2 {
+    div[itemprop="blogPost"] h1, div[itemprop="articleBody"] h1 {
+        margin-bottom: 30px
+    }
+}
+
+/* H2 = .govuk-heading-m */
+div[itemprop="blogPost"] h2, div[itemprop="articleBody"] h2 {
+    color: #0b0c0c;
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.11111;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+@media print {
+    div[itemprop="blogPost"] h2, div[itemprop="articleBody"] h2 {
+        color: #000;
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] h2, div[itemprop="articleBody"] h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+        line-height: 1.25
+    }
+}
+
+@media print {
+    div[itemprop="blogPost"] h2, div[itemprop="articleBody"] h2 {
+        font-size: 18pt;
+        line-height: 1.15
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] h2, div[itemprop="articleBody"] h2 {
+        margin-bottom: 20px
+    }
+}
+
+/* H3 = .govuk-heading-s */
+div[itemprop="blogPost"] h3, div[itemprop="articleBody"] h3 {
+    color: #0b0c0c;
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+@media print {
+    div[itemprop="blogPost"] h3, div[itemprop="articleBody"] h3 {
+        color: #000;
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] h3, div[itemprop="articleBody"] h3 {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579
+    }
+}
+
+@media print {
+    div[itemprop="blogPost"] h3, div[itemprop="articleBody"] h3 {
+        font-size: 14pt;
+        line-height: 1.15
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] h3, div[itemprop="articleBody"] h3 {
+        margin-bottom: 20px
+    }
+}
+
+/* Set page-header h2 to equal govuk-heading-m*/ 
+h2[itemprop="name"] {
+	padding-top: 5px
+}
+
+h2[itemprop="name"] {
+    color: #0b0c0c;
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 24px !important;
+    font-size: 1.5rem !important;
+    line-height: 1.04167 !important;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+@media print {
+    h2[itemprop="name"] {
+        color: #000;
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    h2[itemprop="name"] {
+        font-size: 36px !important;
+        font-size: 2.25rem !important;
+        line-height: 1.11111 !important;
+    }
+}
+
+@media print {
+    h2[itemprop="name"] {
+        font-size: 24pt !important;
+        line-height: 1.05 !important
+    }
+}
+
+@media (min-width:40.0625em) {
+    h2[itemprop="name"] {
         margin-bottom: 30px
     }
 }
