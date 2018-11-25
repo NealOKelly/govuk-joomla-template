@@ -360,7 +360,7 @@ div[itemprop="blogPost"] p, div[itemprop="articleBody"] p {
 /* End : Paragraph Text */
 
 /* Start : Bold Text */
-div[itemprop="blogPost"] p, div[itemprop="articleBody"] p {
+div[itemprop="blogPost"] p b, div[itemprop="articleBody"] p b {
     font-weight: 700!important
 }
 /* End : Bold Text */
