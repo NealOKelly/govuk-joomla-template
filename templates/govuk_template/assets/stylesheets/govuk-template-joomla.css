@@ -1,5 +1,5 @@
 /* Global font rule */
-html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;}
+html, body, button, input, table, td, th, ol {font-family: "nta", Arial, sans-serif;}
 
 
 /* START : header-menu */
@@ -397,7 +397,7 @@ div[itemprop="blogPost"] a:focus, div[itemprop="articleBody"] a:focus {
 }
 /* End : Links */
 
-/* Start : Bullet-points */
+/* Start : Bulleted List */
 div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
     font-family: nta, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -446,5 +446,66 @@ div[itemprop="blogPost"] ul, div[itemprop="articleBody"] ul {
     }
 }
 
-/* End : Bullet-points */
+/* End : Bulleted List */
+
+/* Start : Numbered List */
+div[itemprop="blogPost"] ol, div[itemprop="articleBody"] ol {
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 15px;
+	padding-left: 20px;
+    list-style-type: decimal
+}
+
+@media print {
+    div[itemprop="blogPost"] ol, div[itemprop="articleBody"] ol {
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] ol, div[itemprop="articleBody"] ol {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579
+    }
+}
+
+@media print {
+    div[itemprop="blogPost"] ol, div[itemprop="articleBody"] ol {
+        font-size: 14pt;
+        line-height: 1.15;
+        color: #000
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] ol, div[itemprop="articleBody"] ol {
+        margin-bottom: 20px
+    }
+}
+
+div[itemprop="blogPost"] ol, div[itemprop="articleBody"] ol {
+    margin-top: 10px
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] ol li, div[itemprop="articleBody"] ol li {
+        margin-bottom: 5px
+    }
+}
+/* End : Numbered List */
+
+/* Spacing at the bottom of the screen */
+.items-row, .item-page {
+	margin-bottom: 40px;
+}
+
+
 /* END : MAIN JOOMLA CONTENT */
