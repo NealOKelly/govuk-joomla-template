@@ -216,11 +216,11 @@ div[itemprop="blogPost"] h3, div[itemprop="articleBody"] h3 {
 /* End : Headings */
 
 /* Start : section to handle the fact that Article headings use h2*/ 
-h2[itemprop="name"] {
+h2[itemprop="name"], h2[itemprop="headline"] {
 	padding-top: 5px
 }
 
-h2[itemprop="name"] {
+h2[itemprop="name"], h2[itemprop="headline"] {
     color: #0b0c0c;
     font-family: nta, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -235,14 +235,14 @@ h2[itemprop="name"] {
 }
 
 @media print {
-    h2[itemprop="name"] {
+    h2[itemprop="name"], h2[itemprop="headline"] {
         color: #000;
         font-family: sans-serif
     }
 }
 
 @media (min-width:40.0625em) {
-    h2[itemprop="name"] {
+    h2[itemprop="name"], h2[itemprop="headline"] {
         font-size: 36px !important;
         font-size: 2.25rem !important;
         line-height: 1.11111 !important;
@@ -250,14 +250,14 @@ h2[itemprop="name"] {
 }
 
 @media print {
-    h2[itemprop="name"] {
+    h2[itemprop="name"], h2[itemprop="headline"] {
         font-size: 24pt !important;
         line-height: 1.05 !important
     }
 }
 
 @media (min-width:40.0625em) {
-    h2[itemprop="name"] {
+    h2[itemprop="name"], h2[itemprop="headline"] {
         margin-bottom: 30px
     }
 }
