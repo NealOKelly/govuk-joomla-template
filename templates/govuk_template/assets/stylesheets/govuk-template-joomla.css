@@ -120,9 +120,8 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
 
 
 /* START : MAIN JOOMLA CONTENT */
-/* Start : page-header */
 
-
+/* Start : Headings */
 /* H1 = .govuk-heading-l */
 div[itemprop="blogPost"] h1, div[itemprop="articleBody"] h1 {
     color: #0b0c0c;
@@ -251,8 +250,9 @@ div[itemprop="blogPost"] h3, div[itemprop="articleBody"] h3 {
         margin-bottom: 20px
     }
 }
+/* End : Headings */
 
-/* Set page-header h2 to equal govuk-heading-m*/ 
+/* Start : section to handle the fact that Article headings use h2*/ 
 h2[itemprop="name"] {
 	padding-top: 5px
 }
@@ -298,7 +298,50 @@ h2[itemprop="name"] {
         margin-bottom: 30px
     }
 }
-/* End : page-header */
+/* End : section to handle the fact that Article headings use h2*/ 
+
+/* Start : Paragraph Text */
+div[itemprop="blogPost"] p, div[itemprop="articleBody"] p {
+    color: #0b0c0c;
+    font-family: nta, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+@media print {
+	div[itemprop="blogPost"] p, div[itemprop="articleBody"] p {
+		color: #000;
+		font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+div[itemprop="blogPost"] p, div[itemprop="articleBody"] p {
+		font-size: 19px;
+		font-size: 1.1875rem;
+		line-height: 1.31579
+    }
+}
+
+@media print {
+	div[itemprop="blogPost"] p, div[itemprop="articleBody"] p {
+		font-size: 14pt;
+		line-height: 1.15
+    }
+}
+
+@media (min-width:40.0625em) {
+    div[itemprop="blogPost"] p, div[itemprop="articleBody"] p{
+        margin-bottom: 20px
+    }
+}
+/* End : Paragraph Text */
 
 /* Start : Hyperlinks */
 div[itemprop="blogPost"] a, div[itemprop="articleBody"] a  {	
