@@ -10,7 +10,7 @@ Supported positions are (will be):
 - phase-banner
 - breadcrumbs
 - contents-menu
-- one-third (Use Module Class Suffix: govuk-one-third-right)
+- one-third
 - footer-links
 
 Where possible css uses the [GDS Design System](https://design-system.service.gov.uk) is used.  Joomla-specific css is located at /govuk_template/stylesheets/govuk-template-joomla.css.  An additional css file is include to suppress Joomla features commonly enabled by default, but not supported by the template / consistent with the GDS Design System: /govuk_template/stylesheets/hide-joomla-features.css.  
@@ -36,6 +36,14 @@ Populated by a custom module.  Example HTML for custom modules is:
 ## one-third
 Populated by a custom module.  Example HTML for custom modules is:
 
+    <div class="govuk-header__container" style="margin-bottom:20px;"></div>
+    <h2 class="govuk-heading-m">Links</h2>
+        <ul class="govuk-list govuk-list--bullet">
+	        <li><a class="govuk-link" href="#" target="_blank">Terms and Conditions</a></li>
+	        <li><a class="govuk-link" href="#"  target="_blank">List of Services</a></li>
+	        <li><a class="govuk-link" href="#" target="_blank">Help</a></li>
+    </ul>
+    
 ## footer-links
 Populated by a custom module.  Example HTML for custom modules is:
 
