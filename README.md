@@ -24,7 +24,7 @@ This position is included in case the user want to add additionl content into th
 Use to insert navigation items into the header of the GOV.UK page.  Assign a Joomla menu module to the header-menu position.  The menu should be configured to show only one level.
 
 ## search
-
+(under-developement)
 
 ## phase-banner
 Populated by a custom module.  Example HTML for custom module:
@@ -44,7 +44,8 @@ Populated by a custom module.  Example HTML for custom module:
 Assign Joomla breadcrumbs module to the breadcrumbs position. A template over-ride is used to render the html exactly as described in the Design System.
 
 ## contents-menu
-Populated by a custom module.  Example HTML for custom modules is:
+Displays menu as simple list of hyperlinks.  Can accommodate multiple level menu.  Sub-menu items are indented. Assign a Joomla menu module to the contents-menu position.
+
 
 ## one-third
 Populated by a custom module.  Example HTML for custom module:
