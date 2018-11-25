@@ -36,7 +36,7 @@ defined('_JEXEC') or die;
 				// Render all but last item - along with separator ?>
 				<li class="govuk-breadcrumbs__list-item">
 					<?php if (!empty($item->link)) : ?>
-						<a href="<?php echo $item->link; ?>" class="pathway"><?php echo $item->name; ?></a>
+						<a href="<?php echo $item->link; ?>" class="govuk-breadcrumbs__link"><?php echo $item->name; ?></a>
 					<?php else : ?>
 						<?php echo $item->name; ?>
 					<?php endif; ?>
