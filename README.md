@@ -19,7 +19,7 @@ Where possible css uses the [GDS Design System](https://design-system.service.go
 This position is included in case the user want to add additionl content into the &lt;head&gt; element.  It is anticipated that it would be populated by a custom module.
 
 ## header-menu
-Use to inset navigation items into the black header of the GOV.UK page.  Assign menu module to the header-menu position.  The menu should be configured to show only one level.
+Use to insert navigation items into the header of the GOV.UK page.  Assign a Joomla menu module to the header-menu position.  The menu should be configured to show only one level.
 
 ## search
 
