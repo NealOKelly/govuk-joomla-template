@@ -84,25 +84,16 @@ else {
 		$class .= ' parent';
 	}
 
-	if ($module->position == 'header-menu' or $module->position == 'contents-menu')
+	if ($module->position == 'header-menu')
 	{
-
-		if ($module->position == 'header-menu')
-		{
-			echo '<li class="govuk-header__navigation-item">';
-		}
+		$class .= ' govuk-header__navigation-item';
+		echo '<li class="' . $class . '">';
+	}
+	elseif ($module->position == 'contents-menu')
+	{
+		echo '<li class=" ">';
+	}
 		
-		if ($module->position == 'contents-menu')
-		{
-			echo '<li class="' . ' ">';
-		}
-	}
-	else 
-	{
-		echo '<li class="' . $class_sfx . '">';
-	}
-
-	
 
 	switch ($item->type) :
 		case 'separator':

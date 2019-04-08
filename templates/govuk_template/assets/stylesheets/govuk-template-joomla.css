@@ -18,6 +18,16 @@ html, body, button, input, table, td, th {font-family: "nta", Arial, sans-serif;
     background-color: #ffbf47;
     color: #0b0c0c;
 }
+.govuk-header__navigation-item>a:hover {
+    color: #2b8cc4;
+}
+/* Highlight active lin - feature on works where only one menu is present (but menu levels can be in different modules; for example header-menu for L1, and contents-menu for L2.)*/
+.active>a:link, .active>a:visited {
+    color: #005ea5;
+	pointer-events: none;
+    cursor: default;
+}
+
 
 /* END : header-menu */
 
@@ -454,5 +464,38 @@ div[itemprop="blogPost"] ol, div[itemprop="articleBody"] ol {
 	margin-bottom: 50px;
 }
 
+/* dropdown lists */
+@media print {
+    .input-mini {
+        font-family: sans-serif
+    }
+}
+
+@media (min-width:40.0625em) {
+    .input-mini {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.25
+    }
+}
+
+@media print {
+    .input-mini {
+        font-size: 14pt;
+        line-height: 1.25
+    }
+}
+
+.input-mini:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 0
+}
+
+.input-mini:focus::-ms-value,
+.input-mini option:active,
+.input-mini option:checked {
+    color: #fff;
+    background-color: #005ea5
+}
 
 /* END : MAIN JOOMLA CONTENT */
